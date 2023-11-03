@@ -1,0 +1,48 @@
+.listcol
+{
+    padding: 8px;
+    width: 14vw;
+    /* width: 100% !important; */
+    /* align-self: center; */
+    /* display: flex; */
+    /* justify-content: ; */
+}
+
+/* .heading-container {
+    display: flex;
+    align-items: center;
+  } */
+
+  .heading-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .right {
+    /* align-self:flex-end; */
+    margin-left: auto;
+  }
+
+
+.heading{
+    margin-left: 0.7vw;
+    /* margin-bottom: 6vh; */
+    font-size: 0.8rem;
+    color: rgb(97, 97, 97);
+    font-family: sans-serif;
+}
+
+.listofcards
+{
+    height: 70vh;
+    /* overflow-x: hidden; */
+    /* overflow-y: auto; */
+}
+.cont{
+    margin-left: 0.6vw;
+}
+
+
+  
+  

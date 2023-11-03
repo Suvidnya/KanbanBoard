@@ -1,0 +1,242 @@
+body{
+    background-color: #f4f5f8;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+    margin-left: 1vw;
+    margin-right: 1vw;
+   
+}
+
+
+.header{
+    background-color: rgb(255, 255, 255);
+    height: 6vh;
+    padding:15px;
+    /* display : flex; */
+    /* align-items: center; */
+}
+.group{
+    margin-right: 1vw;
+}
+.order{
+    margin-right: 1vw;
+}
+
+.main {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100vw; /* Expand the container to the full viewport width */
+    margin: 10px;
+    margin-top: 20px !important;
+}
+
+.col1 {
+    width: 18vw; /* Fixed width for each column */
+    /* height: 70vh; */
+    display : flex;
+    justify-content: center;
+}
+.col2 {
+    width: 18vw; /* Fixed width for each column */
+    /* height: 70vh; */
+    display : flex;
+    /* height: 80vh; */
+    justify-content: center;
+    /* overflow-x: hidden; */
+    /* overflow-y: auto; */
+}
+.col3 {
+    width: 18vw; /* Fixed width for each column */
+    /* height: 70vh; */
+    display : flex;
+    justify-content: center;
+}
+.col4 {
+    width: 18vw; /* Fixed width for each column */
+    /* height: 70vh; */
+    display : flex;
+    justify-content: center;
+}
+.col5 {
+    width: 18vw; /* Fixed width for each column */
+    /* height: 70vh; */
+    display : flex;
+    justify-content: center;
+}
+
+/* Adjust the margin for gaps */
+.col:not(:last-child) {
+    margin-right: 1vw; /* Adjust the gap as needed */
+}
+
+.buttons{
+    margin-right: 2vw;
+}
+
+.dropdowncontainer{
+    margin-top: 1vh;
+    margin-left: 3vw;
+    border-radius: 5px;
+    padding: 2vh;
+    width: 18vw !important;
+    height: 11vh !important;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    z-index: 999;
+    position: absolute;
+}
+
+
+
+.orderset
+{
+    margin-top: 2vh;
+}
+
+
+
+/* CSS */
+.button-13 {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+  /* margin-bottom: 5vh !important; */
+}
+
+.button-13:hover {
+  background-color: #f7fafa;
+}
+
+.button-13:focus {
+  border-color: #6d6d6d;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+
+.button-13 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Spread the content horizontally */
+    padding-right: 10px; /* Add margin on the right */
+  }
+  
+  .icon {
+    /* Icon styles here */
+ /* Adjust the spacing between the text and the icon */
+    width: 0.8rem;
+    height: 1rem;
+  }
+
+
+
+/* Add this CSS to your existing styles */
+
+.groupset,
+.orderset {
+  display: flex;
+  align-items: center; /* Align the elements vertically */
+  gap: 10px; /* Adjust the gap between elements */
+}
+
+.group,
+.order,
+.buttons {
+  margin: 0; /* Remove any default margins that might cause misalignment */
+}
+
+
+
+/* CSS */
+.buttons {
+  background-color: rgba(51, 51, 51, 0.283);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  margin-left: 1.2vw;
+  padding: 0.5vh 0.9vw;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.buttons :active{
+    border: 1px black;
+}
+
+.sel {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    border: 1.5px solid rgb(219, 219, 219);
+    color: #515050;
+    cursor: pointer;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0;
+    /* margin-left: 1.2vw; */
+    padding: 0.5vh 0.9vw;
+    padding-left: 0.2vw;
+    text-align: center;
+    transition: all 200ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .sel:hover {
+    background-color: #f0f0f0; /* Grey color on hover */
+  }
+  
+  .sel option {
+    background-color: #fdfdfd; /* Near-white color for options */
+    color: rgb(46, 46, 46);
+    padding: 1vw;
+  }
+  
+
+  .button-container {
+    display: flex; /* Make the button and paragraph appear side by side */
+    align-items: center; /* Vertically center-align the content */
+  }
+ 
+  
+  .displaytext {
+    margin: 0; /* Remove default paragraph margins to ensure it's aligned properly */
+    margin-left: 4vw; /* Add spacing between the button and the paragraph */
+    font-family: sans-serif;
+    font-size: 0.8rem;
+  }
+  
