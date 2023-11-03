@@ -314,7 +314,7 @@ function App() {
     <span>Display</span>
     <img src={drop} alt="Icon" className="icon" />
   </button>
-  <p className='displaytext'>(Click on display button after reloading to view your previous state)</p>
+  <p className='displaytext'>(Click on Display button to view previous left state)</p>
 </div>
 
 
